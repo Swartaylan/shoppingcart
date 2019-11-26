@@ -1,3 +1,10 @@
+<?php
+
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -21,7 +28,7 @@
 			<p>商品カテゴリを選択して［検索］ボタンをクリックしてください。</p>
 			<p>カテゴリを選択しなかった場合は、全件検索が実施されすべての商品が表示されます。</p>
 			
-			<form action="result.php" method="get">
+			<form action="Item.php" method="get">
 			
 				<table class="borderless">
 					<tr>

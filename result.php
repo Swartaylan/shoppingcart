@@ -1,12 +1,5 @@
 <?php
-/*if ($_id['book']) {
-
-    echo "書籍";
-}
-else if ($_id['dvd']) {
-    echo "DVD";
-    
-}*/
+//require_once("Item.php");
 ?>
 
 <!DOCTYPE html>
@@ -70,6 +63,9 @@ else if ($_id['dvd']) {
 						<td>978-4798015163</td>
 						<td><a href="entry.html">カートに入れる</a></td>
 					</tr>
+					
+					
+					
 					
 				</table>
 			</section>

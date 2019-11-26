@@ -1,5 +1,5 @@
 <?php
-require_once "result.php";
+require_once "shop.php";
 ?>
 <?php
 // セッションを開始
@@ -70,14 +70,17 @@ if ($mode === "clear") {
 	<?php } else { ?> 
 	
 		<tr>
-			<th>楽器名</th>
+			<th>書籍名</th>
 			<th>価格</th>
+			<th>著者</th>
+			<th>ISBN</th>
 			<th></th>
 		</tr>
 		<?php foreach ($cart as $product) { ?>
 		<tr>
 			<td><?= $product->getName() ?></td>
 			<td><?= $product->getPrice() ?>円</td>
+			
 		</tr>
 		<?php } ?>
 	</table>
